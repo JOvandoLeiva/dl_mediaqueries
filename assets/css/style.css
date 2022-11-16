@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    }
+
+body{
+    background-color: white;
+}
+
+.ordenar {
+    background-color: #ececec;
+}
+
+.titulo{
+    font-size: large;
+    padding: 5px;
+}
+
+/* .titulo li{
+    padding: 5px;
+} */
+
+/* .form-select{
+    width: 90%;
+} */
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* height: 500px; */
+    height: 100%;
+    width: 100%;
+  }
+
+  .icono{
+    margin: 0;
+    display:inline-block;
+    height: 20px;
+    float:none;
+}
+      
+  i{
+    color: white;
+    font-size: 21px;
+    padding: 3px;
+  }
+
+/* img{
+    width: 15rem;
+    height: 25rem;
+} */
+
+p{
+    text-align: center;
+}
+
+.btn{
+    width: 40%;
+    background: #1976d2;
+    color: white;
+}
+
+.card {
+    text-align: center;
+
+}
+
+ul{
+font-size: medium;
+list-style: none;
+min-width: 80%;
+padding: 0;
+}
+
+.filas{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+   
+}
+.grilla li {
+   flex: none;
+   list-style: none;
+   padding: 20px;    
+   
+}
+
+.grilla{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.header{
+    grid-area: header;
+    background-color: #1c2125;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    height: 50px;
+ 
+}
+/* .sidebar{
+    grid-area: sidebar;
+    color: white;
+
+        flex: none;
+        list-style: none;
+        padding: 20px;    
+    
+    background-color: #1976d2;
+} */
+
+.sidebar{
+    grid-area: sidebar;
+    background-color: #1976d2;
+    min-height: 85vh;
+    color: white;
+}
+.sidebar ul{
+    text-align: center;
+    font-size: large;
+}
+
+.sidebar li{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 5px;
+    font-size: medium;
+}
+.sidebarF{
+    max-height: 20vh;
+    grid-area: sidebarF;
+    background-color: #004ba0;
+    text-align: center;
+    color: white;
+}
+
+.sidebarF p{
+    padding: 5px;
+}
+
+/* .sidebarFooter{
+    background-color: #004ba0;
+    min-height: 110px;
+    text-align: center;
+    color: white;
+    margin-top: 100%;
+
+} */
+.main{
+    grid-area: main;
+}
+.footer{
+    grid-area: footer;
+    background-color: #1c2125;
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    height: 50px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-areas:
+    'sidebar sidebar main main main'
+    'sidebarF sidebarF main main main';
+    /* grid-gap: 5px; */
+}
+
+.paginas{
+    grid-area: paginas;
+}
+/* .grid-container div{
+
+    border: 1px solid black;
+} */
+@media(min-width: 576){
+
+    
+}
